@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: apache
+# Cookbook Name:: apache-test
 # Recipe:: default
 #
 # Copyright 2014, YOUR_COMPANY_NAME
