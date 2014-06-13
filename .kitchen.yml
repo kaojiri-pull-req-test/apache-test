@@ -1,0 +1,20 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.5
+
+suites:
+  - name: default
+    run_list:
+      - recipe[apache-test::default]
+    attributes:
+
+driver_plugin: vagrant
+driver_config:
+  http_proxy: http://proxy.unisys.co.jp:8080
+  https_proxy: http://proxy.unisys.co.jp:8080
